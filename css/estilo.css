@@ -1,0 +1,57 @@
+body{
+	background-image: url(../img/fondo.png);
+	background-image: 100%;
+} 
+
+h1{
+	text-align: center;
+	width: 100%;
+	color: #0e6372;
+
+}
+
+.cont{
+	margin-top: 100px;
+	text-align: center;
+}
+
+.cont-vieja{
+	position: relative;
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.cuadrado{
+	position: absolute;
+	width: 33%;
+	height: 33%;
+	background-color: transparent;
+	border: solid #0e6372;
+	color: #fefefe;
+	font-size: 20px;
+}
+
+.fila1{
+	top: 0%;
+}
+
+.fila2{
+	top: 33%;
+}
+
+.fila3{
+	top: 66%;
+}
+
+.columna1{
+	left: 0%;
+}
+
+.columna2{
+	left: 33%;
+}
+
+.columna3{
+	left: 66%;
+}
